@@ -1,0 +1,33 @@
+<map id="Game_NewGame" name="Game_NewGame">
+<area shape="rect" id="node2" href="$game_8c.html#a82ea6700cd3398da284f39b26c1f2cee" title="Game_Init_Scene" alt="" coords="189,132,316,159"/>
+<area shape="rect" id="node8" href="$game_8c.html#a66afe630dbbec5d86f74a68800dcff1c" title="Game_Select_Scene" alt="" coords="180,335,325,361"/>
+<area shape="rect" id="node9" href="$game_8c.html#ad4149ec67ce0da49bcd1977bb2f0dfdb" title="Game_Load_Scene" alt="" coords="185,385,321,412"/>
+<area shape="rect" id="node10" href="$game_8c.html#a64b2ec1736b2783da46a78999a45c425" title="Game_PlayGame" alt="" coords="190,436,315,463"/>
+<area shape="rect" id="node21" href="$game_8c.html#abaa4f87648b2143649e694498b8d6afa" title="Game_FreeGame" alt="" coords="579,816,704,843"/>
+<area shape="rect" id="node3" href="$ennemy_8c.html#aa58979863ea659226f334d656563cc31" title="Initialisation_Ennemy" alt="" coords="373,157,520,184"/>
+<area shape="rect" id="node4" href="$vie_8c.html#abc7e166a5d5aeefd5e03c0673f13fc94" title="Init_Vie" alt="" coords="413,208,480,235"/>
+<area shape="rect" id="node5" href="$player_8c.html#a19fa8966a99c44ec0f7ede7eaa57ef0a" title="Initialisation_Player" alt="" coords="379,5,514,32"/>
+<area shape="rect" id="node6" href="$scrol_8c.html#acaa04ffbc3ab3677da794f1cde0db8ce" title="Initialisation_Scroll" alt="" coords="381,56,512,83"/>
+<area shape="rect" id="node7" href="$chrono_8c.html#a4f18121f5be6b749338e124b619c98ef" title="Init_Chrono" alt="" coords="402,107,491,133"/>
+<area shape="rect" id="node11" href="$game_8c.html#ac6a4f26b412b77800bd6182d473dffd1" title="Game_DisplayGame" alt="" coords="375,259,518,285"/>
+<area shape="rect" id="node19" href="$game_8c.html#ae2c834c8f9ffc5213d27015028402379" title="Game_UpdateGame" alt="" coords="376,588,517,615"/>
+<area shape="rect" id="node12" href="$scrol_8c.html#a78679883b042c6a43715ef39e57f4317" title="Scrolling" alt="" coords="605,157,677,184"/>
+<area shape="rect" id="node13" href="$chrono_8c.html#a0a7d9bb6ec2f958b0792124e90086eec" title="Display_Chrono" alt="" coords="584,208,699,235"/>
+<area shape="rect" id="node14" href="$ennemy_8c.html#a2841f886f4e83d47d29070d439de66f7" title="Display_Ennemy" alt="" coords="581,259,702,285"/>
+<area shape="rect" id="node15" href="$vie_8c.html#a10bd73f363f52deb2e45060ef5a096d7" title="Display_Vie" alt="" coords="595,309,687,336"/>
+<area shape="rect" id="node16" href="$player_8c.html#a320117188e8b085aa5104786b084d1bf" title="Display_Player" alt="" coords="586,360,697,387"/>
+<area shape="rect" id="node17" href="$player_8c.html#a7536ef826096eb744ee2094a7253ae4e" title="Animation_Player" alt="" coords="579,56,703,83"/>
+<area shape="rect" id="node18" href="$player_8c.html#a2ff256f1d170f484222acfe32f50c141" title="Attack_Player" alt="" coords="589,107,693,133"/>
+<area shape="rect" id="node20" href="$chrono_8c.html#a56356592f0560380dceb270a7cfeaef1" title="Pause_Chrono" alt="" coords="587,411,695,437"/>
+<area shape="rect" id="node25" href="$collisionparfait_8c.html#a4cb9ad745cdcc0c1f45f6adc0739156f" title="Collision_Parfait" alt="" coords="583,461,700,488"/>
+<area shape="rect" id="node27" href="$player_8c.html#a527112e421f3029908184bbdd8198008" title="DeplacementPlayer" alt="" coords="573,512,709,539"/>
+<area shape="rect" id="node28" href="$player_8c.html#a6762a34d67fc39e570bd4c046794a64f" title="DeplacementPlayerC" alt="" coords="568,563,715,589"/>
+<area shape="rect" id="node29" href="$bounding_8c.html#a329bf2f9e06490e6864352e0d0deabba" title="collision" alt="" coords="607,613,676,640"/>
+<area shape="rect" id="node30" href="$ennemy_8c.html#aef30f17c3373b11470ea17de0daf4fb5" title="Animation_Ennemy" alt="" coords="574,664,709,691"/>
+<area shape="rect" id="node31" href="$vie_8c.html#a72e9ae54bfdb074a5756f7e37c8ffb82" title="Calcul_Vie" alt="" coords="599,715,684,741"/>
+<area shape="rect" id="node32" href="$chrono_8c.html#a49f308e7b7931061a6d9850365f262b2" title="Calcul_Chrono" alt="" coords="587,765,695,792"/>
+<area shape="rect" id="node22" href="$ennemy_8c.html#a35f3a663d7b93ce02ae0fc5069795fd0" title="Free_Ennemy" alt="" coords="763,765,865,792"/>
+<area shape="rect" id="node23" href="$vie_8c.html#aeeef9e77fc96719e2db135b646c66bb8" title="Free_vie" alt="" coords="778,816,850,843"/>
+<area shape="rect" id="node24" href="$player_8c.html#a3c7db5ad4e2228020fb6f11883807437" title="Free_Player" alt="" coords="768,867,860,893"/>
+<area shape="rect" id="node26" href="$collisionparfait_8c.html#a9ec79b71532402381966fc93325d3e52" title="GetPixel" alt="" coords="778,461,850,488"/>
+</map>

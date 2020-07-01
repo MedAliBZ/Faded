@@ -1,0 +1,144 @@
+\hypertarget{fonctions_8c}{}\section{fonctions.\+c File Reference}
+\label{fonctions_8c}\index{fonctions.\+c@{fonctions.\+c}}
+
+
+all the menu functions  
+
+
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+ttf.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+image.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+mixer.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}fonctions.\+h\char`\"{}}\newline
+Include dependency graph for fonctions.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{fonctions_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{fonctions_8c_af0310f8c3d32415e9abfbe927a27774a}{menu} (S\+D\+L\+\_\+\+Surface $\ast$background, S\+D\+L\+\_\+\+Surface $\ast$screen, S\+D\+L\+\_\+\+Rect positionbackground, \hyperlink{structtexte}{texte} $\ast$txt, S\+D\+L\+\_\+\+Surface $\ast$play, S\+D\+L\+\_\+\+Surface $\ast$setting, S\+D\+L\+\_\+\+Surface $\ast$quit, S\+D\+L\+\_\+\+Rect positionplay, S\+D\+L\+\_\+\+Rect positionsetting, S\+D\+L\+\_\+\+Rect positionquit, S\+D\+L\+\_\+\+Surface $\ast$credits, S\+D\+L\+\_\+\+Rect positioncredits)
+\item 
+void \hyperlink{fonctions_8c_a7aa52168ae5dc669d191ac754416de1d}{menu1} (S\+D\+L\+\_\+\+Surface $\ast$background1, S\+D\+L\+\_\+\+Surface $\ast$screen, S\+D\+L\+\_\+\+Rect positionbackground)
+\item 
+void \hyperlink{fonctions_8c_ad6658c6ffe84f3432b1440fd7168e81a}{fleche} (int etat, S\+D\+L\+\_\+\+Surface $\ast$screen, S\+D\+L\+\_\+\+Surface $\ast$play, S\+D\+L\+\_\+\+Surface $\ast$quit, S\+D\+L\+\_\+\+Surface $\ast$setting, S\+D\+L\+\_\+\+Surface $\ast$credits, S\+D\+L\+\_\+\+Surface $\ast$quit1, S\+D\+L\+\_\+\+Surface $\ast$setting1, S\+D\+L\+\_\+\+Surface $\ast$play1, S\+D\+L\+\_\+\+Surface $\ast$credits1, S\+D\+L\+\_\+\+Rect positionplay, S\+D\+L\+\_\+\+Rect positionquit, S\+D\+L\+\_\+\+Rect positionsetting, S\+D\+L\+\_\+\+Rect positioncredits)
+\begin{DoxyCompactList}\small\item\em to show the menu \end{DoxyCompactList}\item 
+void \hyperlink{fonctions_8c_a79360bb9b1585cfa4f57b551335491c2}{animation1} (S\+D\+L\+\_\+\+Surface $\ast$background3, S\+D\+L\+\_\+\+Surface $\ast$screen, S\+D\+L\+\_\+\+Rect $\ast$position, S\+D\+L\+\_\+\+Surface $\ast$background1, S\+D\+L\+\_\+\+Rect positionbackground)
+\begin{DoxyCompactList}\small\item\em to move with the arrows on the menu \end{DoxyCompactList}\item 
+int \hyperlink{fonctions_8c_a1e0d526d92db41be5f0c1609a1071e61}{personnage} (S\+D\+L\+\_\+\+Surface $\ast$screen)
+\begin{DoxyCompactList}\small\item\em to animate the background \end{DoxyCompactList}\item 
+int \hyperlink{fonctions_8c_a4840e5a896d43999cfcf0fb32acbd13d}{change} (S\+D\+L\+\_\+\+Surface $\ast$screen)
+\begin{DoxyCompactList}\small\item\em to change the player \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+all the menu functions 
+
+\begin{DoxyAuthor}{Author}
+Mohamed Ali Bouzaiene 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+0.\+1 
+\end{DoxyVersion}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{fonctions_8c_a79360bb9b1585cfa4f57b551335491c2}\label{fonctions_8c_a79360bb9b1585cfa4f57b551335491c2}} 
+\index{fonctions.\+c@{fonctions.\+c}!animation1@{animation1}}
+\index{animation1@{animation1}!fonctions.\+c@{fonctions.\+c}}
+\subsubsection{\texorpdfstring{animation1()}{animation1()}}
+{\footnotesize\ttfamily void animation1 (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{background3,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen,  }\item[{S\+D\+L\+\_\+\+Rect $\ast$}]{position,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{background1,  }\item[{S\+D\+L\+\_\+\+Rect}]{positionbackground }\end{DoxyParamCaption})}
+
+
+
+to move with the arrows on the menu 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{fonctions_8c_a79360bb9b1585cfa4f57b551335491c2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{fonctions_8c_a4840e5a896d43999cfcf0fb32acbd13d}\label{fonctions_8c_a4840e5a896d43999cfcf0fb32acbd13d}} 
+\index{fonctions.\+c@{fonctions.\+c}!change@{change}}
+\index{change@{change}!fonctions.\+c@{fonctions.\+c}}
+\subsubsection{\texorpdfstring{change()}{change()}}
+{\footnotesize\ttfamily int change (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen }\end{DoxyParamCaption})}
+
+
+
+to change the player 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{fonctions_8c_a4840e5a896d43999cfcf0fb32acbd13d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{fonctions_8c_ad6658c6ffe84f3432b1440fd7168e81a}\label{fonctions_8c_ad6658c6ffe84f3432b1440fd7168e81a}} 
+\index{fonctions.\+c@{fonctions.\+c}!fleche@{fleche}}
+\index{fleche@{fleche}!fonctions.\+c@{fonctions.\+c}}
+\subsubsection{\texorpdfstring{fleche()}{fleche()}}
+{\footnotesize\ttfamily void fleche (\begin{DoxyParamCaption}\item[{int}]{etat,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{play,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{quit,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{setting,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{credits,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{quit1,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{setting1,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{play1,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{credits1,  }\item[{S\+D\+L\+\_\+\+Rect}]{positionplay,  }\item[{S\+D\+L\+\_\+\+Rect}]{positionquit,  }\item[{S\+D\+L\+\_\+\+Rect}]{positionsetting,  }\item[{S\+D\+L\+\_\+\+Rect}]{positioncredits }\end{DoxyParamCaption})}
+
+
+
+to show the menu 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=197pt]{fonctions_8c_ad6658c6ffe84f3432b1440fd7168e81a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{fonctions_8c_af0310f8c3d32415e9abfbe927a27774a}\label{fonctions_8c_af0310f8c3d32415e9abfbe927a27774a}} 
+\index{fonctions.\+c@{fonctions.\+c}!menu@{menu}}
+\index{menu@{menu}!fonctions.\+c@{fonctions.\+c}}
+\subsubsection{\texorpdfstring{menu()}{menu()}}
+{\footnotesize\ttfamily void menu (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{background,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen,  }\item[{S\+D\+L\+\_\+\+Rect}]{positionbackground,  }\item[{\hyperlink{structtexte}{texte} $\ast$}]{txt,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{play,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{setting,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{quit,  }\item[{S\+D\+L\+\_\+\+Rect}]{positionplay,  }\item[{S\+D\+L\+\_\+\+Rect}]{positionsetting,  }\item[{S\+D\+L\+\_\+\+Rect}]{positionquit,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{credits,  }\item[{S\+D\+L\+\_\+\+Rect}]{positioncredits }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=195pt]{fonctions_8c_af0310f8c3d32415e9abfbe927a27774a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{fonctions_8c_a7aa52168ae5dc669d191ac754416de1d}\label{fonctions_8c_a7aa52168ae5dc669d191ac754416de1d}} 
+\index{fonctions.\+c@{fonctions.\+c}!menu1@{menu1}}
+\index{menu1@{menu1}!fonctions.\+c@{fonctions.\+c}}
+\subsubsection{\texorpdfstring{menu1()}{menu1()}}
+{\footnotesize\ttfamily void menu1 (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{background1,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen,  }\item[{S\+D\+L\+\_\+\+Rect}]{positionbackground }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=200pt]{fonctions_8c_a7aa52168ae5dc669d191ac754416de1d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{fonctions_8c_a1e0d526d92db41be5f0c1609a1071e61}\label{fonctions_8c_a1e0d526d92db41be5f0c1609a1071e61}} 
+\index{fonctions.\+c@{fonctions.\+c}!personnage@{personnage}}
+\index{personnage@{personnage}!fonctions.\+c@{fonctions.\+c}}
+\subsubsection{\texorpdfstring{personnage()}{personnage()}}
+{\footnotesize\ttfamily int personnage (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen }\end{DoxyParamCaption})}
+
+
+
+to animate the background 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=221pt]{fonctions_8c_a1e0d526d92db41be5f0c1609a1071e61_icgraph}
+\end{center}
+\end{figure}

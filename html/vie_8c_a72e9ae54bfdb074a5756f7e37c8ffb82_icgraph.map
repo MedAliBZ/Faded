@@ -1,0 +1,6 @@
+<map id="Calcul_Vie" name="Calcul_Vie">
+<area shape="rect" id="node2" href="$game_8h.html#ae2c834c8f9ffc5213d27015028402379" title="Game_UpdateGame" alt="" coords="139,5,280,32"/>
+<area shape="rect" id="node3" href="$game_8h.html#a64b2ec1736b2783da46a78999a45c425" title="Game_PlayGame" alt="" coords="328,5,453,32"/>
+<area shape="rect" id="node4" href="$game_8h.html#ae35126bf4ccd62e1bef71fa8ff8e5797" title="Game_NewGame" alt="" coords="501,5,628,32"/>
+<area shape="rect" id="node5" href="$menu1_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="676,5,727,32"/>
+</map>

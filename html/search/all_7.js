@@ -1,0 +1,9 @@
+var searchData=
+[
+  ['init_5fchrono',['Init_Chrono',['../chrono_8c.html#a4f18121f5be6b749338e124b619c98ef',1,'Init_Chrono(Chrono *c, SDL_Rect pos, int temps):&#160;chrono.c'],['../chrono_8h.html#a4f18121f5be6b749338e124b619c98ef',1,'Init_Chrono(Chrono *c, SDL_Rect pos, int temps):&#160;chrono.c']]],
+  ['init_5fvie',['Init_Vie',['../vie_8c.html#abc7e166a5d5aeefd5e03c0673f13fc94',1,'Init_Vie(Vie *v):&#160;vie.c'],['../vie_8h.html#abc7e166a5d5aeefd5e03c0673f13fc94',1,'Init_Vie(Vie *v):&#160;vie.c']]],
+  ['initchrono',['initchrono',['../chronometre_8c.html#ab731f86a58ec470cb9584a5502440645',1,'initchrono():&#160;chronometre.c'],['../enigmes_8c.html#a6dd29323933d67965cc4741c9c0b0afa',1,'initchrono(TTF_Font **police, SDL_Surface **black):&#160;enigmes.c'],['../enigmes_8h.html#a6dd29323933d67965cc4741c9c0b0afa',1,'initchrono(TTF_Font **police, SDL_Surface **black):&#160;enigmes.c']]],
+  ['initialisation_5fennemy',['Initialisation_Ennemy',['../ennemy_8c.html#aa58979863ea659226f334d656563cc31',1,'Initialisation_Ennemy(Ennemy *e, SDL_Rect pos):&#160;ennemy.c'],['../ennemy_8h.html#aa58979863ea659226f334d656563cc31',1,'Initialisation_Ennemy(Ennemy *e, SDL_Rect pos):&#160;ennemy.c']]],
+  ['initialisation_5fplayer',['Initialisation_Player',['../player_8c.html#a19fa8966a99c44ec0f7ede7eaa57ef0a',1,'Initialisation_Player(Player *p, SDL_Rect pos):&#160;player.c'],['../player_8h.html#a19fa8966a99c44ec0f7ede7eaa57ef0a',1,'Initialisation_Player(Player *p, SDL_Rect pos):&#160;player.c']]],
+  ['initialisation_5fscroll',['Initialisation_Scroll',['../scrol_8c.html#acaa04ffbc3ab3677da794f1cde0db8ce',1,'Initialisation_Scroll(Scroll *cam, SDL_Rect pos_player, int width, int height):&#160;scrol.c'],['../scrol_8h.html#acaa04ffbc3ab3677da794f1cde0db8ce',1,'Initialisation_Scroll(Scroll *cam, SDL_Rect pos_player, int width, int height):&#160;scrol.c']]]
+];

@@ -1,0 +1,10 @@
+<map id="game.c" name="game.c">
+<area shape="rect" id="node2" href="$game_8h.html" title="game.h" alt="" coords="315,80,380,107"/>
+<area shape="rect" id="node5" href="$ennemy_8h.html" title="ennemy.h" alt="" coords="219,155,298,181"/>
+<area shape="rect" id="node10" href="$vie_8h.html" title="vie.h" alt="" coords="322,155,373,181"/>
+<area shape="rect" id="node11" href="$player_8h.html" title="player.h" alt="" coords="398,155,466,181"/>
+<area shape="rect" id="node12" href="$bounding_8h.html" title="bounding.h" alt="" coords="24,155,109,181"/>
+<area shape="rect" id="node13" href="$chrono_8h.html" title="chrono.h" alt="" coords="490,155,562,181"/>
+<area shape="rect" id="node14" href="$scrol_8h.html" title="scrol.h" alt="" coords="133,155,194,181"/>
+<area shape="rect" id="node15" href="$enigmes_8h.html" title="toutes les enigmes " alt="" coords="637,155,720,181"/>
+</map>

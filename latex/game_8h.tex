@@ -1,0 +1,259 @@
+\hypertarget{game_8h}{}\section{game.\+h File Reference}
+\label{game_8h}\index{game.\+h@{game.\+h}}
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+ttf.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}ennemy.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}vie.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}player.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}bounding.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}chrono.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}scrol.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}enigmes.\+h\char`\"{}}\newline
+Include dependency graph for game.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{game_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{game_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgame}{game}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{game_8h_ac92ca5ab87034a348decad7ee8d4bd1b}{F\+PS}~10
+\item 
+\#define \hyperlink{game_8h_a078b6c12f1ac6819cecef90ab5870276}{T\+I\+ME}~60
+\item 
+\#define \hyperlink{game_8h_a6801baa546c6112d19eb095111d24720}{G\+R\+A\+V\+I\+TY}~0.\+3
+\item 
+\#define \hyperlink{game_8h_ab7d66695dede78826ee578ddfc5a92aa}{V\+E\+L\+O\+C\+I\+TY}~8
+\item 
+\#define \hyperlink{game_8h_add245c894e5b7978e0183638b1b294dd}{T\+I\+M\+E\+E\+N\+I\+G\+ME}~10
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structgame}{game} \hyperlink{game_8h_a25fa88d8fd72fce4763106b5bfdc6c43}{Game}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{game_8h_a82ea6700cd3398da284f39b26c1f2cee}{Game\+\_\+\+Init\+\_\+\+Scene} (\hyperlink{game_8h_a25fa88d8fd72fce4763106b5bfdc6c43}{Game} $\ast$G)
+\item 
+void \hyperlink{game_8h_ae35126bf4ccd62e1bef71fa8ff8e5797}{Game\+\_\+\+New\+Game} (\hyperlink{game_8h_a25fa88d8fd72fce4763106b5bfdc6c43}{Game} $\ast$G, S\+D\+L\+\_\+\+Surface $\ast$ecran)
+\item 
+void \hyperlink{game_8h_ad4149ec67ce0da49bcd1977bb2f0dfdb}{Game\+\_\+\+Load\+\_\+\+Scene} (\hyperlink{game_8h_a25fa88d8fd72fce4763106b5bfdc6c43}{Game} $\ast$G)
+\item 
+void \hyperlink{game_8h_abaa4f87648b2143649e694498b8d6afa}{Game\+\_\+\+Free\+Game} (\hyperlink{game_8h_a25fa88d8fd72fce4763106b5bfdc6c43}{Game} $\ast$G)
+\item 
+void \hyperlink{game_8h_ac6a4f26b412b77800bd6182d473dffd1}{Game\+\_\+\+Display\+Game} (\hyperlink{game_8h_a25fa88d8fd72fce4763106b5bfdc6c43}{Game} $\ast$G, S\+D\+L\+\_\+\+Surface $\ast$ecran)
+\item 
+void \hyperlink{game_8h_a64b2ec1736b2783da46a78999a45c425}{Game\+\_\+\+Play\+Game} (\hyperlink{game_8h_a25fa88d8fd72fce4763106b5bfdc6c43}{Game} $\ast$G, S\+D\+L\+\_\+\+Surface $\ast$ecran)
+\item 
+void \hyperlink{game_8h_a66afe630dbbec5d86f74a68800dcff1c}{Game\+\_\+\+Select\+\_\+\+Scene} (int $\ast$sc)
+\item 
+void \hyperlink{game_8h_ae2c834c8f9ffc5213d27015028402379}{Game\+\_\+\+Update\+Game} (\hyperlink{game_8h_a25fa88d8fd72fce4763106b5bfdc6c43}{Game} $\ast$G, Uint32 dt, S\+D\+L\+\_\+\+Surface $\ast$ecran)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{game_8h_ac92ca5ab87034a348decad7ee8d4bd1b}\label{game_8h_ac92ca5ab87034a348decad7ee8d4bd1b}} 
+\index{game.\+h@{game.\+h}!F\+PS@{F\+PS}}
+\index{F\+PS@{F\+PS}!game.\+h@{game.\+h}}
+\subsubsection{\texorpdfstring{F\+PS}{FPS}}
+{\footnotesize\ttfamily \#define F\+PS~10}
+
+\mbox{\Hypertarget{game_8h_a6801baa546c6112d19eb095111d24720}\label{game_8h_a6801baa546c6112d19eb095111d24720}} 
+\index{game.\+h@{game.\+h}!G\+R\+A\+V\+I\+TY@{G\+R\+A\+V\+I\+TY}}
+\index{G\+R\+A\+V\+I\+TY@{G\+R\+A\+V\+I\+TY}!game.\+h@{game.\+h}}
+\subsubsection{\texorpdfstring{G\+R\+A\+V\+I\+TY}{GRAVITY}}
+{\footnotesize\ttfamily \#define G\+R\+A\+V\+I\+TY~0.\+3}
+
+\mbox{\Hypertarget{game_8h_a078b6c12f1ac6819cecef90ab5870276}\label{game_8h_a078b6c12f1ac6819cecef90ab5870276}} 
+\index{game.\+h@{game.\+h}!T\+I\+ME@{T\+I\+ME}}
+\index{T\+I\+ME@{T\+I\+ME}!game.\+h@{game.\+h}}
+\subsubsection{\texorpdfstring{T\+I\+ME}{TIME}}
+{\footnotesize\ttfamily \#define T\+I\+ME~60}
+
+\mbox{\Hypertarget{game_8h_add245c894e5b7978e0183638b1b294dd}\label{game_8h_add245c894e5b7978e0183638b1b294dd}} 
+\index{game.\+h@{game.\+h}!T\+I\+M\+E\+E\+N\+I\+G\+ME@{T\+I\+M\+E\+E\+N\+I\+G\+ME}}
+\index{T\+I\+M\+E\+E\+N\+I\+G\+ME@{T\+I\+M\+E\+E\+N\+I\+G\+ME}!game.\+h@{game.\+h}}
+\subsubsection{\texorpdfstring{T\+I\+M\+E\+E\+N\+I\+G\+ME}{TIMEENIGME}}
+{\footnotesize\ttfamily \#define T\+I\+M\+E\+E\+N\+I\+G\+ME~10}
+
+\mbox{\Hypertarget{game_8h_ab7d66695dede78826ee578ddfc5a92aa}\label{game_8h_ab7d66695dede78826ee578ddfc5a92aa}} 
+\index{game.\+h@{game.\+h}!V\+E\+L\+O\+C\+I\+TY@{V\+E\+L\+O\+C\+I\+TY}}
+\index{V\+E\+L\+O\+C\+I\+TY@{V\+E\+L\+O\+C\+I\+TY}!game.\+h@{game.\+h}}
+\subsubsection{\texorpdfstring{V\+E\+L\+O\+C\+I\+TY}{VELOCITY}}
+{\footnotesize\ttfamily \#define V\+E\+L\+O\+C\+I\+TY~8}
+
+
+
+\subsection{Typedef Documentation}
+\mbox{\Hypertarget{game_8h_a25fa88d8fd72fce4763106b5bfdc6c43}\label{game_8h_a25fa88d8fd72fce4763106b5bfdc6c43}} 
+\index{game.\+h@{game.\+h}!Game@{Game}}
+\index{Game@{Game}!game.\+h@{game.\+h}}
+\subsubsection{\texorpdfstring{Game}{Game}}
+{\footnotesize\ttfamily typedef struct \hyperlink{structgame}{game} \hyperlink{game_8h_a25fa88d8fd72fce4763106b5bfdc6c43}{Game}}
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{game_8h_ac6a4f26b412b77800bd6182d473dffd1}\label{game_8h_ac6a4f26b412b77800bd6182d473dffd1}} 
+\index{game.\+h@{game.\+h}!Game\+\_\+\+Display\+Game@{Game\+\_\+\+Display\+Game}}
+\index{Game\+\_\+\+Display\+Game@{Game\+\_\+\+Display\+Game}!game.\+h@{game.\+h}}
+\subsubsection{\texorpdfstring{Game\+\_\+\+Display\+Game()}{Game\_DisplayGame()}}
+{\footnotesize\ttfamily void Game\+\_\+\+Display\+Game (\begin{DoxyParamCaption}\item[{\hyperlink{game_8h_a25fa88d8fd72fce4763106b5bfdc6c43}{Game} $\ast$}]{G,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{ecran }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=316pt]{game_8h_ac6a4f26b412b77800bd6182d473dffd1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{game_8h_ac6a4f26b412b77800bd6182d473dffd1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{game_8h_abaa4f87648b2143649e694498b8d6afa}\label{game_8h_abaa4f87648b2143649e694498b8d6afa}} 
+\index{game.\+h@{game.\+h}!Game\+\_\+\+Free\+Game@{Game\+\_\+\+Free\+Game}}
+\index{Game\+\_\+\+Free\+Game@{Game\+\_\+\+Free\+Game}!game.\+h@{game.\+h}}
+\subsubsection{\texorpdfstring{Game\+\_\+\+Free\+Game()}{Game\_FreeGame()}}
+{\footnotesize\ttfamily void Game\+\_\+\+Free\+Game (\begin{DoxyParamCaption}\item[{\hyperlink{game_8h_a25fa88d8fd72fce4763106b5bfdc6c43}{Game} $\ast$}]{G }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=287pt]{game_8h_abaa4f87648b2143649e694498b8d6afa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{game_8h_abaa4f87648b2143649e694498b8d6afa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{game_8h_a82ea6700cd3398da284f39b26c1f2cee}\label{game_8h_a82ea6700cd3398da284f39b26c1f2cee}} 
+\index{game.\+h@{game.\+h}!Game\+\_\+\+Init\+\_\+\+Scene@{Game\+\_\+\+Init\+\_\+\+Scene}}
+\index{Game\+\_\+\+Init\+\_\+\+Scene@{Game\+\_\+\+Init\+\_\+\+Scene}!game.\+h@{game.\+h}}
+\subsubsection{\texorpdfstring{Game\+\_\+\+Init\+\_\+\+Scene()}{Game\_Init\_Scene()}}
+{\footnotesize\ttfamily void Game\+\_\+\+Init\+\_\+\+Scene (\begin{DoxyParamCaption}\item[{\hyperlink{game_8h_a25fa88d8fd72fce4763106b5bfdc6c43}{Game} $\ast$}]{G }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{game_8h_a82ea6700cd3398da284f39b26c1f2cee_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{game_8h_a82ea6700cd3398da284f39b26c1f2cee_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{game_8h_ad4149ec67ce0da49bcd1977bb2f0dfdb}\label{game_8h_ad4149ec67ce0da49bcd1977bb2f0dfdb}} 
+\index{game.\+h@{game.\+h}!Game\+\_\+\+Load\+\_\+\+Scene@{Game\+\_\+\+Load\+\_\+\+Scene}}
+\index{Game\+\_\+\+Load\+\_\+\+Scene@{Game\+\_\+\+Load\+\_\+\+Scene}!game.\+h@{game.\+h}}
+\subsubsection{\texorpdfstring{Game\+\_\+\+Load\+\_\+\+Scene()}{Game\_Load\_Scene()}}
+{\footnotesize\ttfamily void Game\+\_\+\+Load\+\_\+\+Scene (\begin{DoxyParamCaption}\item[{\hyperlink{game_8h_a25fa88d8fd72fce4763106b5bfdc6c43}{Game} $\ast$}]{G }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{game_8h_ad4149ec67ce0da49bcd1977bb2f0dfdb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{game_8h_ae35126bf4ccd62e1bef71fa8ff8e5797}\label{game_8h_ae35126bf4ccd62e1bef71fa8ff8e5797}} 
+\index{game.\+h@{game.\+h}!Game\+\_\+\+New\+Game@{Game\+\_\+\+New\+Game}}
+\index{Game\+\_\+\+New\+Game@{Game\+\_\+\+New\+Game}!game.\+h@{game.\+h}}
+\subsubsection{\texorpdfstring{Game\+\_\+\+New\+Game()}{Game\_NewGame()}}
+{\footnotesize\ttfamily void Game\+\_\+\+New\+Game (\begin{DoxyParamCaption}\item[{\hyperlink{game_8h_a25fa88d8fd72fce4763106b5bfdc6c43}{Game} $\ast$}]{G,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{ecran }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{game_8h_ae35126bf4ccd62e1bef71fa8ff8e5797_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=249pt]{game_8h_ae35126bf4ccd62e1bef71fa8ff8e5797_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{game_8h_a64b2ec1736b2783da46a78999a45c425}\label{game_8h_a64b2ec1736b2783da46a78999a45c425}} 
+\index{game.\+h@{game.\+h}!Game\+\_\+\+Play\+Game@{Game\+\_\+\+Play\+Game}}
+\index{Game\+\_\+\+Play\+Game@{Game\+\_\+\+Play\+Game}!game.\+h@{game.\+h}}
+\subsubsection{\texorpdfstring{Game\+\_\+\+Play\+Game()}{Game\_PlayGame()}}
+{\footnotesize\ttfamily void Game\+\_\+\+Play\+Game (\begin{DoxyParamCaption}\item[{\hyperlink{game_8h_a25fa88d8fd72fce4763106b5bfdc6c43}{Game} $\ast$}]{G,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{ecran }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{game_8h_a64b2ec1736b2783da46a78999a45c425_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{game_8h_a64b2ec1736b2783da46a78999a45c425_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{game_8h_a66afe630dbbec5d86f74a68800dcff1c}\label{game_8h_a66afe630dbbec5d86f74a68800dcff1c}} 
+\index{game.\+h@{game.\+h}!Game\+\_\+\+Select\+\_\+\+Scene@{Game\+\_\+\+Select\+\_\+\+Scene}}
+\index{Game\+\_\+\+Select\+\_\+\+Scene@{Game\+\_\+\+Select\+\_\+\+Scene}!game.\+h@{game.\+h}}
+\subsubsection{\texorpdfstring{Game\+\_\+\+Select\+\_\+\+Scene()}{Game\_Select\_Scene()}}
+{\footnotesize\ttfamily void Game\+\_\+\+Select\+\_\+\+Scene (\begin{DoxyParamCaption}\item[{int $\ast$}]{sc }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{game_8h_a66afe630dbbec5d86f74a68800dcff1c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{game_8h_ae2c834c8f9ffc5213d27015028402379}\label{game_8h_ae2c834c8f9ffc5213d27015028402379}} 
+\index{game.\+h@{game.\+h}!Game\+\_\+\+Update\+Game@{Game\+\_\+\+Update\+Game}}
+\index{Game\+\_\+\+Update\+Game@{Game\+\_\+\+Update\+Game}!game.\+h@{game.\+h}}
+\subsubsection{\texorpdfstring{Game\+\_\+\+Update\+Game()}{Game\_UpdateGame()}}
+{\footnotesize\ttfamily void Game\+\_\+\+Update\+Game (\begin{DoxyParamCaption}\item[{\hyperlink{game_8h_a25fa88d8fd72fce4763106b5bfdc6c43}{Game} $\ast$}]{G,  }\item[{Uint32}]{dt,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{ecran }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{game_8h_ae2c834c8f9ffc5213d27015028402379_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{game_8h_ae2c834c8f9ffc5213d27015028402379_icgraph}
+\end{center}
+\end{figure}
