@@ -1,8 +1,0 @@
-var searchData=
-[
-  ['afficherenigme',['afficherenigme',['../enigmes_8c.html#abc41653829a3c89b3907cd3ae5927145',1,'afficherenigme(SDL_Surface *screen, char *a):&#160;enigmes.c'],['../enigmes_8h.html#abc41653829a3c89b3907cd3ae5927145',1,'afficherenigme(SDL_Surface *screen, char *a):&#160;enigmes.c']]],
-  ['animation1',['animation1',['../fonctions_8c.html#a79360bb9b1585cfa4f57b551335491c2',1,'animation1(SDL_Surface *background3, SDL_Surface *screen, SDL_Rect *position, SDL_Surface *background1, SDL_Rect positionbackground):&#160;fonctions.c'],['../fonctions_8h.html#a79360bb9b1585cfa4f57b551335491c2',1,'animation1(SDL_Surface *background3, SDL_Surface *screen, SDL_Rect *position, SDL_Surface *background1, SDL_Rect positionbackground):&#160;fonctions.c']]],
-  ['animation_5fennemy',['Animation_Ennemy',['../ennemy_8c.html#aef30f17c3373b11470ea17de0daf4fb5',1,'Animation_Ennemy(Ennemy *e):&#160;ennemy.c'],['../ennemy_8h.html#aef30f17c3373b11470ea17de0daf4fb5',1,'Animation_Ennemy(Ennemy *e):&#160;ennemy.c']]],
-  ['animation_5fplayer',['Animation_Player',['../player_8c.html#a7536ef826096eb744ee2094a7253ae4e',1,'Animation_Player(Player *p, SDL_Surface *ecran, SDL_Rect position):&#160;player.c'],['../player_8h.html#a7536ef826096eb744ee2094a7253ae4e',1,'Animation_Player(Player *p, SDL_Surface *ecran, SDL_Rect position):&#160;player.c']]],
-  ['attack_5fplayer',['Attack_Player',['../player_8c.html#a2ff256f1d170f484222acfe32f50c141',1,'Attack_Player(Player *p, SDL_Surface *ecran, SDL_Rect position):&#160;player.c'],['../player_8h.html#a2ff256f1d170f484222acfe32f50c141',1,'Attack_Player(Player *p, SDL_Surface *ecran, SDL_Rect position):&#160;player.c']]]
-];

@@ -1,7 +1,0 @@
-<map id="GetPixel" name="GetPixel">
-<area shape="rect" id="node2" href="$collisionparfait_8h.html#a4cb9ad745cdcc0c1f45f6adc0739156f" title="Collision_Parfait" alt="" coords="125,5,243,32"/>
-<area shape="rect" id="node3" href="$game_8h.html#ae2c834c8f9ffc5213d27015028402379" title="Game_UpdateGame" alt="" coords="291,5,432,32"/>
-<area shape="rect" id="node4" href="$game_8h.html#a64b2ec1736b2783da46a78999a45c425" title="Game_PlayGame" alt="" coords="480,5,605,32"/>
-<area shape="rect" id="node5" href="$game_8h.html#ae35126bf4ccd62e1bef71fa8ff8e5797" title="Game_NewGame" alt="" coords="653,5,780,32"/>
-<area shape="rect" id="node6" href="$menu1_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="828,5,879,32"/>
-</map>

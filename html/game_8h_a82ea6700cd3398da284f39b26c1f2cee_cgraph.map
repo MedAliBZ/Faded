@@ -1,7 +1,0 @@
-<map id="Game_Init_Scene" name="Game_Init_Scene">
-<area shape="rect" id="node2" href="$ennemy_8c.html#aa58979863ea659226f334d656563cc31" title="Initialisation_Ennemy" alt="" coords="180,5,327,32"/>
-<area shape="rect" id="node3" href="$vie_8c.html#abc7e166a5d5aeefd5e03c0673f13fc94" title="Init_Vie" alt="" coords="220,56,287,83"/>
-<area shape="rect" id="node4" href="$player_8c.html#a19fa8966a99c44ec0f7ede7eaa57ef0a" title="Initialisation_Player" alt="" coords="186,107,321,133"/>
-<area shape="rect" id="node5" href="$scrol_8c.html#acaa04ffbc3ab3677da794f1cde0db8ce" title="Initialisation_Scroll" alt="" coords="188,157,319,184"/>
-<area shape="rect" id="node6" href="$chrono_8c.html#a4f18121f5be6b749338e124b619c98ef" title="Init_Chrono" alt="" coords="209,208,298,235"/>
-</map>

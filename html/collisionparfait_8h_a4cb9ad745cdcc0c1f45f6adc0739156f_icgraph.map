@@ -1,6 +1,0 @@
-<map id="Collision_Parfait" name="Collision_Parfait">
-<area shape="rect" id="node2" href="$game_8h.html#ae2c834c8f9ffc5213d27015028402379" title="Game_UpdateGame" alt="" coords="171,5,312,32"/>
-<area shape="rect" id="node3" href="$game_8h.html#a64b2ec1736b2783da46a78999a45c425" title="Game_PlayGame" alt="" coords="360,5,485,32"/>
-<area shape="rect" id="node4" href="$game_8h.html#ae35126bf4ccd62e1bef71fa8ff8e5797" title="Game_NewGame" alt="" coords="533,5,660,32"/>
-<area shape="rect" id="node5" href="$menu1_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="708,5,759,32"/>
-</map>

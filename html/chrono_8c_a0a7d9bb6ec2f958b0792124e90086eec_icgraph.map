@@ -1,6 +1,0 @@
-<map id="Display_Chrono" name="Display_Chrono">
-<area shape="rect" id="node2" href="$game_8h.html#ac6a4f26b412b77800bd6182d473dffd1" title="Game_DisplayGame" alt="" coords="168,5,311,32"/>
-<area shape="rect" id="node3" href="$game_8h.html#a64b2ec1736b2783da46a78999a45c425" title="Game_PlayGame" alt="" coords="359,5,484,32"/>
-<area shape="rect" id="node4" href="$game_8h.html#ae35126bf4ccd62e1bef71fa8ff8e5797" title="Game_NewGame" alt="" coords="532,5,659,32"/>
-<area shape="rect" id="node5" href="$menu1_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="707,5,757,32"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="ennemy.h" name="ennemy.h">
-<area shape="rect" id="node2" href="$ennemy_8c.html" title="ennemy.c" alt="" coords="5,80,84,107"/>
-<area shape="rect" id="node3" href="$game_8h.html" title="game.h" alt="" coords="108,80,173,107"/>
-<area shape="rect" id="node4" href="$game_8c.html" title="game.c" alt="" coords="61,155,127,181"/>
-<area shape="rect" id="node5" href="$menu1_8c.html" title="menu1.c" alt="" coords="151,155,223,181"/>
-</map>

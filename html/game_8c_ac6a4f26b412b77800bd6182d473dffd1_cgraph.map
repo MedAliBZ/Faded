@@ -1,9 +1,0 @@
-<map id="Game_DisplayGame" name="Game_DisplayGame">
-<area shape="rect" id="node2" href="$scrol_8c.html#a78679883b042c6a43715ef39e57f4317" title="Scrolling" alt="" coords="222,5,294,32"/>
-<area shape="rect" id="node3" href="$chrono_8c.html#a0a7d9bb6ec2f958b0792124e90086eec" title="Display_Chrono" alt="" coords="201,56,315,83"/>
-<area shape="rect" id="node4" href="$ennemy_8c.html#a2841f886f4e83d47d29070d439de66f7" title="Display_Ennemy" alt="" coords="197,107,319,133"/>
-<area shape="rect" id="node5" href="$vie_8c.html#a10bd73f363f52deb2e45060ef5a096d7" title="Display_Vie" alt="" coords="212,157,304,184"/>
-<area shape="rect" id="node6" href="$player_8c.html#a320117188e8b085aa5104786b084d1bf" title="Display_Player" alt="" coords="203,208,313,235"/>
-<area shape="rect" id="node7" href="$player_8c.html#a7536ef826096eb744ee2094a7253ae4e" title="Animation_Player" alt="" coords="196,259,320,285"/>
-<area shape="rect" id="node8" href="$player_8c.html#a2ff256f1d170f484222acfe32f50c141" title="Attack_Player" alt="" coords="206,309,310,336"/>
-</map>
